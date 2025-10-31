@@ -1,33 +1,61 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact • Yifang Qiu • LIS351</title>
-  <meta name="description" content="Personal site for LIS 351" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header role="banner">
-    <div class="navbar" aria-label="Primary">
-      <span class="brand">Yifang Qiu • LIS351</span>
-      <a href="index.html" class="">Home</a>
-        <a href="about.html" class="">About</a>
-        <a href="projects.html" class="">Projects</a>
-        <a href="blog.html" class="">Blog</a>
-        <a href="contact.html" class="active">Contact</a>
-    </div>
-  </header>
-  <main id="main">
-  
+    <!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Contact • LIS351</title>
+      <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+      <a class="skip-link" href="#main">Skip to content</a>
+      <header role="banner">
+        <div class="container">
+
+<nav class="navbar" aria-label="Primary">
+  <span class="brand">Yifang Qiu • LIS351</span>
+  <a href="index.html" >Home</a>
+  <a href="about.html" >About</a>
+  <a href="projects.html" >Projects</a>
+  <a href="blog.html" >Blog</a>
+  <a href="contact.html" aria-current="page">Contact</a>
+</nav>
+
+        </div>
+      </header>
+      <main id="main" class="container" tabindex="-1">
+
+<section class="card">
   <h1>Contact</h1>
-  <p>Email: <a href="mailto:qiu92@wisc.edu">qiu92@wisc.edu</a></p>
-  <p>GitHub: <a href="https://github.com/Funger1314" target="_blank" rel="noopener">Funger1314</a></p>
-  
-  </main>
-  <footer role="contentinfo">
-    © 2025 Yifang Qiu • Built for LIS 351 • Palette {"primary": "#0B6E99", "secondary": "#F2B705", "accent": "#F2784B", "bg": "#FFFFFF", "fg": "#222222"}
-  </footer>
-</body>
-</html>
+  <p>You can find me on GitHub as <a href="https://github.com/Funger1314" target="_blank" rel="noopener">Funger1314</a>.</p>
+  <h2>Send a Message</h2>
+  <p><strong>Note:</strong> This form is for demonstration only.</p>
+  <form aria-label="Contact form">
+    <p>
+      <label for="name">Name</label><br>
+      <input id="name" name="name" type="text" required>
+    </p>
+    <p>
+      <label for="email">Email</label><br>
+      <input id="email" name="email" type="email" required>
+    </p>
+    <p>
+      <label for="msg">Message</label><br>
+      <textarea id="msg" name="msg" rows="5"></textarea>
+    </p>
+    <p>
+      <button class="btn" type="submit">Send</button>
+    </p>
+  </form>
+</section>
+
+      </main>
+      <footer role="contentinfo">
+        <div class="container">
+          <p>© 2025 Yifang Qiu. Built for LIS351 Major Project&nbsp;1.</p>
+          <p>Background image credit (examples): See Creative Commons info at 
+             <a href="https://creativecommons.org/about/cclicenses/" target="_blank" rel="noopener">Creative Commons Licenses</a>.
+          </p>
+        </div>
+      </footer>
+    </body>
+    </html>

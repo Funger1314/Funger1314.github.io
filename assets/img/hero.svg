@@ -1,0 +1,7 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">Sunrise over water</title>
+  <desc id="desc">Abstract sunrise illustration for the homepage</desc>
+  <rect x="0" y="0" width="800" height="500" fill="#e0f7fa" />
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-size="48" fill="#004d40">Welcome</text>
+</svg>
