@@ -1,7 +1,0 @@
-
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" role="img" aria-labelledby="title desc">
-  <title id="title">Profile placeholder</title>
-  <desc id="desc">Silhouette representing a person</desc>
-  <rect x="0" y="0" width="800" height="500" fill="#ede7f6" />
-  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-size="48" fill="#311b92">About Me</text>
-</svg>
