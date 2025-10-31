@@ -58,6 +58,11 @@ nav {
   text-align: center;
 }
 
+nav .brand {
+  color: #ffffff;       
+  font-weight: 700;    
+}
+
 nav a {
   color: #ffffff;                  /* White text for contrast */
   margin: 0 1rem;
